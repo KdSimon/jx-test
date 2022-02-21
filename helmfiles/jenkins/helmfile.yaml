@@ -1,0 +1,16 @@
+filepath: ""
+namespace: jenkins
+repositories:
+- name: jenkinsci
+  url: https://charts.jenkins.io
+- name: jxgh
+  url: https://jenkins-x-charts.github.io/repo
+releases:
+- chart: jenkinsci/jenkins
+  name: jenkins
+  values:
+  - values.yaml
+- chart: jxgh/jenkins-resources
+  name: jenkins-resources
+templates: {}
+renderedvalues: {}

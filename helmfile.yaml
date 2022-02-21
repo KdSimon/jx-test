@@ -1,6 +1,8 @@
 filepath: ""
 helmfiles:
+- path: helmfiles/jenkins/helmfile.yaml
 - path: helmfiles/jx/helmfile.yaml
+- path: helmfiles/myjenkins/helmfile.yaml
 - path: helmfiles/tekton-pipelines/helmfile.yaml
 templates: {}
 renderedvalues: {}
